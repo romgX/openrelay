@@ -1,6 +1,10 @@
-# OpenRelay
+<p align="center">
+  <img src="logo.png" width="120" alt="OpenRelay">
+</p>
 
-**Your AI subscriptions, everywhere.** Stop paying for AI tools you can't fully use.
+<h1 align="center">OpenRelay</h1>
+
+<p align="center"><b>Your AI subscriptions, everywhere.</b> Stop paying for AI tools you can't fully use.</p>
 
 [中文说明](#中文)
 
