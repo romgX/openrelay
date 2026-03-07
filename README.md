@@ -4,7 +4,7 @@
 
 <h1 align="center">OpenRelay</h1>
 
-<p align="center"><b>Your AI subscriptions, everywhere.</b> Stop paying for AI tools you can't fully use.</p>
+<p align="center"><b>No more token hassles — your AI subscriptions, everywhere.</b></p>
 
 <p align="center"><a href="#english">English</a> | <a href="#中文">中文</a></p>
 
@@ -143,7 +143,7 @@ Open Core model:
 
 ## 中文说明
 
-**你的 AI 订阅，处处可用。** 别再为用不完的 AI 工具白白付费。
+**不再为 Token 烦恼，让你的 AI 订阅，随处可用。**
 
 ---
 
