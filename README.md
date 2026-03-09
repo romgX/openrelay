@@ -190,20 +190,6 @@ Open `http://localhost:18765` → everything is managed from the Web dashboard.
 
 ---
 
-## Free vs Pro
-
-| | Free | Pro |
-|--|------|-----|
-| Providers | All 29 | All 29 |
-| Daily requests | 50 req/day | Unlimited |
-| IDE RPC proxies | ✅ | ✅ |
-| Model groups | ✅ | ✅ |
-| Price | Free | ¥39/month |
-
-> Free tier limit is generous for personal use. Pro is for power users and teams.
-
----
-
 ## Security
 
 **Credentials never leave your machine.** All tokens, cookies, and API keys stay in local process memory. Nothing is uploaded anywhere.
@@ -358,20 +344,6 @@ openrelay --test    # 测试所有 Provider 连接
 ```
 
 浏览器打开 `http://localhost:18765` — 一切在 Web 面板中管理，支持中英双语。
-
----
-
-## 免费版 vs Pro
-
-| | 免费版 | Pro |
-|--|--------|-----|
-| 支持的 Provider | 全部 29 个 | 全部 29 个 |
-| 每日请求次数 | 50 次/天 | 无限制 |
-| IDE RPC 代理 | ✅ | ✅ |
-| 模型组合（轮询） | ✅ | ✅ |
-| 价格 | 免费 | ¥39/月 |
-
-> 免费版对个人日常使用已经足够。Pro 适合重度用户和团队。
 
 ---
 
