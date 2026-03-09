@@ -9,6 +9,7 @@
 <p align="center">
   <a href="https://github.com/romgX/openrelay/releases/latest"><img src="https://img.shields.io/github/v/release/romgX/openrelay?label=Download&color=brightgreen" alt="Download"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT License"></a>
+  <a href="https://t.me/openrelay_updates"><img src="https://img.shields.io/badge/Telegram-Updates-2CA5E0?logo=telegram" alt="Telegram"></a>
 </p>
 
 <p align="center"><a href="#english">English</a> | <a href="#中文">中文</a></p>
@@ -150,6 +151,10 @@ Open Core model:
 ## 中文说明
 
 **不再为配额烦恼，让你的 AI 订阅，随处可用。**
+
+<p align="center">
+  <a href="https://t.me/openrelay_updates">📢 加入 Telegram 频道获取更新 →</a>
+</p>
 
 ---
 
