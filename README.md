@@ -4,7 +4,7 @@
 
 <h1 align="center">OpenRelay</h1>
 
-<p align="center"><b>你的 AI 订阅，各自为政。OpenRelay 打破这道墙。</b></p>
+<p align="center"><b>几百个免费 AI 模型配额，一键接入本地项目</b></p>
 
 <p align="center">
   <a href="https://github.com/romgX/openrelay/releases/latest"><img src="https://img.shields.io/github/v/release/romgX/openrelay?color=blue&label=download" alt="Latest Release"></a>
