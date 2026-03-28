@@ -163,7 +163,7 @@ xattr -d com.apple.quarantine openrelay-macos
 - Telegram 更新频道：[t.me/openrelay_updates](https://t.me/openrelay_updates)
 - 问题反馈：[GitHub Issues](https://github.com/romgX/openrelay/issues)
 
-点个 **Star** ⭐ + 加入 [Telegram 群](https://t.me/openrelay_chat)，有机会领 **1 个月 Pro 体验码**。
+点个 **Star** ⭐ + 加入 [Telegram 群](https://t.me/openrelay_chat)，有机会领 **1-2 个月 Pro 体验码**。
 
 ## 许可证
 
@@ -366,7 +366,7 @@ Having trouble? Check the **[FAQ (English)](faq-en.md)** | **[常见问题 (中�
 - Telegram Updates: [t.me/openrelay_updates](https://t.me/openrelay_updates)
 - Issues: [GitHub Issues](https://github.com/romgX/openrelay/issues)
 
-**Star** ⭐ this repo + join [Telegram group](https://t.me/openrelay_chat) → get **1 month Pro free**.
+**Star** ⭐ this repo + join [Telegram group](https://t.me/openrelay_chat) → chance to get **1-2 months Pro free**.
 
 ## License
 

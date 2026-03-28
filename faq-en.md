@@ -11,6 +11,7 @@
 3. [Providers & Quotas](#providers--quotas)
 4. [Error Troubleshooting](#error-troubleshooting)
 5. [IDE Integration](#ide-integration)
+6. [LINUX DO Connect](#linux-do-connect)
 
 ---
 
@@ -257,6 +258,18 @@ To delete all data: `rm -rf ~/.openrelay/`
 
 ---
 
-> Last updated: 2026-03-11
+## LINUX DO Connect
+
+### Q: What does LINUX DO login do?
+
+[LINUX DO](https://linux.do) community members can log in to OpenRelay with their linux.do account to receive community-exclusive benefits. Click the LINUX DO button in the Dashboard top-right corner to log in.
+
+### Q: Does this affect my existing OpenRelay account?
+
+No. LINUX DO login is completely independent from OpenRelay's registration and Pro subscription system.
+
+---
+
+> Last updated: 2026-03-28
 >
 > If your question isn't listed here, please open a [GitHub Issue](https://github.com/romgX/openrelay/issues) and we'll add it to this FAQ.

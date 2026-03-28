@@ -11,6 +11,7 @@
 3. [Provider 与配额](#provider-与配额)
 4. [报错排查](#报错排查)
 5. [IDE 集成](#ide-集成)
+6. [LINUX DO Connect](#linux-do-connect)
 
 ---
 
@@ -257,6 +258,18 @@ Kiro 的 AWS Token 约 1 小时过期。解决方法：
 
 ---
 
-> 最后更新：2026-03-11
+## LINUX DO Connect
+
+### Q: LINUX DO 登录有什么用？
+
+[LINUX DO](https://linux.do) 社区用户可以使用 linux.do 账号登录 OpenRelay，获得社区专属权益。在 Dashboard 右上角点击 LINUX DO 按钮即可登录。
+
+### Q: 登录后影响原来的账号吗？
+
+不影响。LINUX DO 登录与 OpenRelay 的注册/Pro 付费是两套独立系统，互不干扰。
+
+---
+
+> 最后更新：2026-03-28
 >
 > 如果你的问题不在列表中，请到 [GitHub Issues](https://github.com/romgX/openrelay/issues) 提问，我们会及时补充到本文档。
