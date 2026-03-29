@@ -11,7 +11,8 @@
 3. [Provider 与配额](#provider-与配额)
 4. [报错排查](#报错排查)
 5. [IDE 集成](#ide-集成)
-6. [LINUX DO Connect](#linux-do-connect)
+6. [安全与隐私](#安全与隐私)
+7. [LINUX DO Connect](#linux-do-connect)
 
 ---
 
@@ -258,6 +259,32 @@ Kiro 的 AWS Token 约 1 小时过期。解决方法：
 
 ---
 
+## 安全与隐私
+
+### Q: 用 OpenRelay 会不会被封号？
+
+不会。OpenRelay 跟"反代"（反向代理）完全不同：
+
+- **反代**：你的请求经过别人的服务器，多人共用一个 Key，容易被 Provider 检测到异常然后封号。
+- **OpenRelay**：纯本地运行，请求从你自己的电脑直接发到 AI Provider，跟你手动调 API 没有任何区别。Provider 看到的就是一个正常用户在用自己的配额，不存在封号风险。
+
+简单说：OpenRelay 只是帮你在本地管理和转发请求，不碰你的账号，不经过任何中间服务器。
+
+唯一需要注意的是：如果某个 Provider 自己调整了免费额度政策（比如取消免费 tier），那是 Provider 的决定，跟用不用 OpenRelay 无关。这种情况下 OpenRelay 会自动切换到其他还有额度的 Provider，不影响使用。
+
+### Q: 我的 API Key / Token 安全吗？会不会被上传？
+
+绝对不会。OpenRelay 的安全设计：
+
+1. **凭据不离开本机** — 所有 API Key、Token、Cookie 只在你电脑的本地内存中使用，不会上传到任何地方。
+2. **直连 AI 后端** — 请求从你的机器直接发到 AI Provider，中间没有任何第三方服务器。
+3. **不记录聊天内容** — 日志只包含错误信息和请求元数据（哪个 Provider、哪个模型、状态码），你的对话内容从不被记录或缓存。
+4. **代码可审计** — 凭据处理的核心代码（`cookie.ts`）公开可查，不放心可以自己看。
+
+你的数据只存在 `~/.openrelay/config.json` 里，想彻底删除执行 `rm -rf ~/.openrelay/` 即可。
+
+---
+
 ## LINUX DO Connect
 
 ### Q: LINUX DO 登录有什么用？
@@ -270,6 +297,6 @@ Kiro 的 AWS Token 约 1 小时过期。解决方法：
 
 ---
 
-> 最后更新：2026-03-28
+> 最后更新：2026-03-29
 >
 > 如果你的问题不在列表中，请到 [GitHub Issues](https://github.com/romgX/openrelay/issues) 提问，我们会及时补充到本文档。

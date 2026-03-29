@@ -11,7 +11,8 @@
 3. [Providers & Quotas](#providers--quotas)
 4. [Error Troubleshooting](#error-troubleshooting)
 5. [IDE Integration](#ide-integration)
-6. [LINUX DO Connect](#linux-do-connect)
+6. [Security & Privacy](#security--privacy)
+7. [LINUX DO Connect](#linux-do-connect)
 
 ---
 
@@ -258,6 +259,32 @@ To delete all data: `rm -rf ~/.openrelay/`
 
 ---
 
+## Security & Privacy
+
+### Q: Will using OpenRelay get my account banned?
+
+No. OpenRelay is fundamentally different from a "reverse proxy":
+
+- **Reverse proxy**: Your requests go through someone else's server, multiple users share one API key — providers can detect this and ban the account.
+- **OpenRelay**: Runs entirely on your local machine. Requests go directly from your computer to the AI provider, exactly the same as calling the API yourself. The provider sees a normal user using their own quota — there's nothing to flag or ban.
+
+In short: OpenRelay just manages and routes requests locally. It doesn't touch your account and nothing passes through any middleman server.
+
+The only thing to keep in mind: if a provider changes their free tier policy (e.g., removes free credits), that's the provider's decision and has nothing to do with OpenRelay. When that happens, OpenRelay automatically switches to another provider that still has quota available.
+
+### Q: Are my API keys / tokens safe? Could they be uploaded?
+
+Absolutely safe. OpenRelay's security design:
+
+1. **Credentials never leave your machine** — All API keys, tokens, and cookies stay in local process memory. Nothing is uploaded anywhere.
+2. **Direct connections only** — Requests go straight from your machine to the AI provider. No third-party server in between.
+3. **No chat logging** — Logs only contain errors and request metadata (provider, model, status code). Your conversation content is never logged or cached.
+4. **Auditable code** — The credential handling code (`cookie.ts`) is open for review. You can check it yourself if you have any concerns.
+
+Your data is stored only in `~/.openrelay/config.json`. To delete everything: `rm -rf ~/.openrelay/`.
+
+---
+
 ## LINUX DO Connect
 
 ### Q: What does LINUX DO login do?
@@ -270,6 +297,6 @@ No. LINUX DO login is completely independent from OpenRelay's registration and P
 
 ---
 
-> Last updated: 2026-03-28
+> Last updated: 2026-03-29
 >
 > If your question isn't listed here, please open a [GitHub Issue](https://github.com/romgX/openrelay/issues) and we'll add it to this FAQ.
