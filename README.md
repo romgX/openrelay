@@ -9,7 +9,7 @@
 <p align="center">
   <a href="https://github.com/romgX/openrelay/releases/latest"><img src="https://img.shields.io/github/v/release/romgX/openrelay?color=blue&label=download" alt="Latest Release"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-Open%20Core-blue" alt="License"></a>
-  <img src="https://img.shields.io/badge/platform-macOS%20%7C%20Windows-lightgrey" alt="Platform">
+  <img src="https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey" alt="Platform">
   <a href="https://t.me/openrelay_updates"><img src="https://img.shields.io/badge/Telegram-updates-blue?logo=telegram" alt="Telegram"></a>
   <a href="https://t.me/openrelay_chat"><img src="https://img.shields.io/badge/Telegram-chat-blue?logo=telegram" alt="Chat"></a>
 </p>
@@ -133,6 +133,15 @@ xattr -d com.apple.quarantine openrelay-macos
 ```
 
 > `xattr` 命令用于解除 macOS 对未签名程序的安全限制，否则会提示"无法打开"。
+
+**Linux** (x64)：[点击下载 openrelay-linux-x64](https://github.com/romgX/openrelay/releases/latest/download/openrelay-linux-x64)，然后终端执行：
+
+```bash
+chmod +x openrelay-linux-x64
+./openrelay-linux-x64
+```
+
+> Linux 支持的 IDE Provider：Claude Code、Kiro、Windsurf、OpenCode、VS Code Copilot、OpenAI Codex。Claude Desktop 和 Antigravity 目前无 Linux 版本。凭证存取通过 `secret-tool`（gnome-keyring）或文件缓存，无需额外配置。
 
 浏览器打开 `http://localhost:18765` — 一切在 Web 面板中管理，支持中英双语。
 
@@ -336,6 +345,15 @@ xattr -d com.apple.quarantine openrelay-macos
 ```
 
 > `xattr` removes macOS Gatekeeper quarantine flag — without it, macOS will block the unsigned binary.
+
+**Linux** (x64): [Download openrelay-linux-x64](https://github.com/romgX/openrelay/releases/latest/download/openrelay-linux-x64), then run in terminal:
+
+```bash
+chmod +x openrelay-linux-x64
+./openrelay-linux-x64
+```
+
+> Supported IDE providers on Linux: Claude Code, Kiro, Windsurf, OpenCode, VS Code Copilot, OpenAI Codex. Claude Desktop and Antigravity have no Linux builds. Credentials are stored via `secret-tool` (gnome-keyring) or file-based cache — no extra setup needed.
 
 Open `http://localhost:18765` → everything is managed from the Web dashboard.
 
