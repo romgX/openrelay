@@ -167,6 +167,7 @@ chmod +x openrelay-linux-x64
 
 ## 社区
 
+- QQ 群：**1087788461**
 - LINUX DO：[linux.do](https://linux.do)
 - Telegram 讨论群：[t.me/openrelay_chat](https://t.me/openrelay_chat)
 - Telegram 更新频道：[t.me/openrelay_updates](https://t.me/openrelay_updates)
