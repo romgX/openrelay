@@ -10,6 +10,7 @@
   <a href="https://github.com/romgX/openrelay/releases/latest"><img src="https://img.shields.io/github/v/release/romgX/openrelay?color=blue&label=download" alt="Latest Release"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-Open%20Core-blue" alt="License"></a>
   <img src="https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-lightgrey" alt="Platform">
+  <a href="https://openrelay.cc"><img src="https://img.shields.io/badge/forum-openrelay.cc-0070f3" alt="Community Forum"></a>
   <a href="https://t.me/openrelay_updates"><img src="https://img.shields.io/badge/Telegram-updates-blue?logo=telegram" alt="Telegram"></a>
   <a href="https://t.me/openrelay_chat"><img src="https://img.shields.io/badge/Telegram-chat-blue?logo=telegram" alt="Chat"></a>
 </p>
@@ -167,13 +168,13 @@ chmod +x openrelay-linux-x64
 
 ## 社区
 
+- **官方社区论坛**：[openrelay.cc](https://openrelay.cc) — 攻略、Provider 评测、跳蚤市场、Bug 反馈
 - QQ 群：**1087788461**
-- LINUX DO：[linux.do](https://linux.do)
 - Telegram 讨论群：[t.me/openrelay_chat](https://t.me/openrelay_chat)
 - Telegram 更新频道：[t.me/openrelay_updates](https://t.me/openrelay_updates)
 - 问题反馈：[GitHub Issues](https://github.com/romgX/openrelay/issues)
 
-点个 **Star** ⭐ + 加入 [Telegram 群](https://t.me/openrelay_chat)，有机会领 **1 个月 Pro 体验码**。
+点个 **Star** ⭐ + 加入 [社区](https://openrelay.cc) 或 [Telegram 群](https://t.me/openrelay_chat)，有机会领 **1 个月 Pro 体验码**。
 
 ## 许可证
 
@@ -380,13 +381,13 @@ Having trouble? Check the **[FAQ (English)](faq-en.md)** | **[常见问题 (中�
 
 ## Community
 
+- **Official Community Forum**: [openrelay.cc](https://openrelay.cc) — guides, provider reviews, marketplace, bug reports
 - QQ Group / QQ 群: **1087788461**
-- LINUX DO: [linux.do](https://linux.do)
 - Telegram Chat: [t.me/openrelay_chat](https://t.me/openrelay_chat)
 - Telegram Updates: [t.me/openrelay_updates](https://t.me/openrelay_updates)
 - Issues: [GitHub Issues](https://github.com/romgX/openrelay/issues)
 
-**Star** ⭐ this repo + join [Telegram group](https://t.me/openrelay_chat) → chance to get **1-2 months Pro free**.
+**Star** ⭐ this repo + join [forum](https://openrelay.cc) or [Telegram group](https://t.me/openrelay_chat) → chance to get **1-2 months Pro free**.
 
 ## License
 
